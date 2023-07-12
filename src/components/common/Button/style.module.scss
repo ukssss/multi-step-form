@@ -1,0 +1,30 @@
+@import 'styles/utils';
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &.primary {
+        min-width: 123px;
+        min-height: 48px;
+        color: $white-color;
+        background: $primary-color;
+        border-radius: 8px;
+    }
+
+    &.secondary {
+        min-width: 123px;
+        min-height: 48px;
+        color: $white-color;
+        background-color: $secondary-color;
+        border-radius: 8px;
+    }
+
+    &.link {
+        color: $natural-color;
+    }
+}
