@@ -1,0 +1,30 @@
+@import '~include-media/dist/include-media';
+
+$breakpoints: (
+    mobile: 568px,
+    tablet: 767px,
+    desktop: 992px,
+);
+
+$white-color: #ffffff;
+$gray-color: #9699aa;
+$light-gray-color: #d6d9e6;
+$very-light-gray-color: #f8f9ff;
+$purple-color: #483eff;
+$denim-color: #022959;
+$orange-color: #ffaf7e;
+$pink-color: #f9818e;
+$red-color: #ee374a;
+$sky-blue-color: #bee2fd;
+$light-blue-color: #abbcff;
+
+$background-color: #eff5ff;
+$primary-color: $purple-color;
+$light-primary-color: #928cff;
+$secondary-color: $denim-color;
+$light-secondary-color: #164a8a;
+$natural-color: $gray-color;
+$error-color: $red-color;
+$highlight-color: $sky-blue-color;
+$border-color: $light-gray-color;
+$active-color: $very-light-gray-color;
