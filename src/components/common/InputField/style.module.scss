@@ -1,0 +1,56 @@
+@import 'styles/utils';
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex-shrink: 0;
+
+    &.error {
+        .input {
+            outline-color: $error-color;
+        }
+    }
+
+    .labelContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+
+        .label {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            color: $secondary-color;
+        }
+
+        .errorMessage {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: normal;
+            color: $error-color;
+        }
+    }
+
+    .input {
+        min-height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: $secondary-color;
+        background: $white-color;
+        border: none;
+        outline: 1px solid $border-color;
+        border-radius: 4px;
+        padding: 11px 16px 12px;
+
+        &::placeholder {
+            color: $natural-color;
+        }
+
+        &:focus {
+            outline-color: $primary-color;
+        }
+    }
+}
